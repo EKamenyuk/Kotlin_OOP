@@ -11,9 +11,7 @@ class MainKtTest {
 
         @Test
         fun updateNo() {
-            // создаём целевой сервис
             val service = WallService
-            // заполняем несколькими постами
             val post1 = Post(
                 1,
                 1234,
@@ -133,7 +131,7 @@ class MainKtTest {
             Likes(3000, true, true,true),
             Reposts(33, false),
             Views(3333),
-            "post", //post, copy, reply, postpone, suggest.
+            "post",
             33333,
             true,
             true,
@@ -157,7 +155,7 @@ class MainKtTest {
             Likes(5555, true, true,true),
             Reposts(444, false),
             Views(333),
-            "post", //post, copy, reply, postpone, suggest.
+            "post",
             11111,
             true,
             true,
@@ -181,7 +179,7 @@ class MainKtTest {
             Likes(4444, true, true,true),
             Reposts(333, false),
             Views(222),
-            "post", //post, copy, reply, postpone, suggest.
+            "post",
             88888,
             true,
             true,
@@ -205,7 +203,7 @@ class MainKtTest {
             Likes(77777777, true, true,true),
             Reposts(77777777, false),
             Views(77777777),
-            "post", //post, copy, reply, postpone, suggest.
+            "post",
             77777777,
             true,
             true,
@@ -240,7 +238,7 @@ class MainKtTest {
                     Likes(400, true, true, true),
                     Reposts(200, false),
                     Views(20000),
-                    "post", //post, copy, reply, postpone, suggest.
+                    "post",
                     12345,
                     true,
                     true,
@@ -248,7 +246,6 @@ class MainKtTest {
                     true,
                     false,
                     false,
-                    //Donut(true, 223,"placeholder", true, "all"),
                     1
                 )
             )
