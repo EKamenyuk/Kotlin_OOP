@@ -1,6 +1,6 @@
 object WallService {
-    var posts: Array<Post> = emptyArray()
-    var nextId: Long = 1
+   private var posts: Array<Post> = emptyArray()
+   private var nextId: Long = 1
 
     fun add(post: Post) : Post {
         val postNew = post.copy(id = nextId)
